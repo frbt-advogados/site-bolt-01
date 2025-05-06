@@ -34,7 +34,6 @@ const Contact: React.FC = () => {
       )
       .finally(() => {
         setIsSubmitting(false);
-        // Clear status after 5 seconds
         setTimeout(() => setStatus(null), 5000);
       });
   };
@@ -192,15 +191,13 @@ const Contact: React.FC = () => {
             </div>
             
             <div className="rounded-lg overflow-hidden shadow-lg h-80">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.0388104943437!2d-40.33791642481039!3d-20.32805814356539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817b7d5f1a301%3A0xa93a6e623f48a07f!2sFreitas%20%26%20Bittencourt%20Advogados!5e0!3m2!1spt-BR!2sbr!4v1714932120417!5m2!1spt-BR!2sbr" 
-                width="100%" 
-                height="100%" 
-                style={{ border: 0 }} 
-                allowFullScreen 
-                loading="lazy" 
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.8835095657163!2d-40.33791642481039!3d-20.32805814356539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817b7d5f1a301%3A0xa93a6e623f48a07f!2sR.%20Gen.%20Os%C3%B3rio%2C%20127%20-%20Centro%2C%20Vit%C3%B3ria%20-%20ES%2C%2029010-035!5e0!3m2!1spt-BR!2sbr!4v1709247051099!5m2!1spt-BR!2sbr"
+                style={{ border: 0, width: '100%', height: '100%' }}
+                allowFullScreen
+                loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+              />
             </div>
           </div>
         </div>
