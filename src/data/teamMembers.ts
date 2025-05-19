@@ -11,7 +11,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: 2,
     name: 'Dr. Renzo Lopes Bittencourt',
-    role: 'OAB/ES 20.555 – OAB/BA 71.354',
+    role: 'Sócio Fundador | OAB/ES 20.555 – OAB/BA 71.354',
     bio: 'Sócio fundador do escritório Freitas & Bittencourt Advogados.',
     imageUrl: 'https://i.postimg.cc/rsvDqfx7/Foto-Renzo.jpg',
   }
