@@ -1,7 +1,0 @@
-<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100" height="100" fill="#1D3F57" />
-  <rect x="8" y="8" width="84" height="84" stroke="#D4AF37" stroke-width="2" />
-  <rect x="50" y="8" width="42" height="84" fill="#D4AF37" />
-  <text x="23" y="65" font-family="serif" font-size="50" font-weight="bold" fill="white">F</text>
-  <text x="65" y="65" font-family="serif" font-size="50" font-weight="bold" fill="#1D3F57">B</text>
-</svg>
